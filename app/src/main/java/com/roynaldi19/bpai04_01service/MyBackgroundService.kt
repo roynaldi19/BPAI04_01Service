@@ -24,7 +24,7 @@ class MyBackgroundService : Service() {
     override fun onStartCommand(intent: Intent, flags: Int, startId: Int): Int {
         Log.d(TAG, "Service dijalankan...");
         serviceScope.launch {
-            for (i in 1..10) {
+            for (i in 1..50) {
                 delay(1000)
                 Log.d(TAG, "Do Something $i")
             }
