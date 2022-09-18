@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.roynaldi19.bpai04_01service">
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BPAI04_01Service"
         tools:targetApi="31">
+        <service
+            android:name=".MyBoundService"
+            android:enabled="true"
+            android:exported="false">
+
+        </service>
         <service
             android:name=".MyForegroundService"
             android:enabled="true"
