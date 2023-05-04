@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.roynaldi19.bpai04_01service"
+        applicationId "com.roynaldi19.dc4_04service"
         minSdk 21
         targetSdk 32
         versionCode 1

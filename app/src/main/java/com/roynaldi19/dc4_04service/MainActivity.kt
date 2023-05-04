@@ -1,4 +1,4 @@
-package com.roynaldi19.bpai04_01service
+package com.roynaldi19.dc4_04service
 
 import android.content.ComponentName
 import android.content.Intent
@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.IBinder
 import androidx.annotation.RequiresApi
-import com.roynaldi19.bpai04_01service.databinding.ActivityMainBinding
+import com.roynaldi19.dc4_04service.databinding.ActivityMainBinding
 import java.util.*
 
 class MainActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.roynaldi19.bpai04_01service
+package com.roynaldi19.dc4_04service
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

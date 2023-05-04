@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BPAI04_01Service</string>
+    <string name="app_name">DC4_04Service</string>
     <string name="start_background_service">Start Background Service</string>
     <string name="stop_background_service">Stop Background Service</string>
     <string name="start_foreground_service">Start Foreground Service</string>
