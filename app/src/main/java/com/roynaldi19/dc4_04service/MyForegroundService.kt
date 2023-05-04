@@ -14,7 +14,7 @@ class MyForegroundService : Service() {
     companion object {
         private const val NOTIFICATION_ID = 1
         private const val CHANNEL_ID = "channel_01"
-        private const val CHANNEL_NAME = "dicoding channel"
+        private const val CHANNEL_NAME = "roynaldi channel"
         internal val TAG = MyForegroundService::class.java.simpleName
     }
 
